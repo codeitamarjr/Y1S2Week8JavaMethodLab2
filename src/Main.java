@@ -22,9 +22,9 @@ public class Main {
         //System.out.println("The largest number is "+Max);
 
 
-        double numberOfShares=20;
-        double purchasePrice=15.99;
-        double purchaseCommissionPaid = 5;
+        double numberOfShares=10;
+        double purchasePrice=2.0;
+        double purchaseCommissionPaid = 3;
         double salePricePerShare = 5;
         double saleCommissionPaid = 3;
         double profit = ShareProfit.profit(numberOfShares,purchasePrice,purchaseCommissionPaid,salePricePerShare,saleCommissionPaid);
